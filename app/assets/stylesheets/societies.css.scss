@@ -1319,8 +1319,6 @@ line-height:30px;
 
 }
 
-
-
 #author{
 
     font-style:italic;
@@ -1329,6 +1327,65 @@ line-height:30px;
 
     padding-right:20px;
 
+}
 
 
+
+//css for about page
+#about-boxes{
+	padding:20px;
+}
+#about-boxes h2{
+    font-family:'Limelight';
+    color:#FFFFFF;
+    font-size:30px;
+    border-bottom:1px dotted;
+}
+#about-boxes h2 a{
+	color:#EEEEEE;
+}
+.shining-text{
+        color:#000000;
+        font-family:'Cabin Sketch';
+        font-size:25px;
+        padding-right:60px;
+}
+.shining{
+    margin:10px;
+    width:270px;
+    height:150px;
+    padding:5px;
+    background-color:#49A7F3;
+    -moz-border-radius:30px 10px 30px 10px;
+    border-radius:10px;
+}
+#about-us{
+    background-image:url('../assets/acts.png');
+    background-repeat:no-repeat;
+    background-position:290px -10px;
+    float:left;
+}
+#our-goals{
+    background-image:url('../assets/events.png');
+    background-repeat:no-repeat;
+    background-position:290px -10px;
+    float:left;
+}
+.about-sub{
+	padding: 10px;
+}
+.tabs{
+	padding: 8px;
+}
+.tabs a{
+	font-size:18px;
+	border: 1px solid green;
+    -moz-border-radius: 10px 10px 10px 10px;
+    padding: 7px 15px 7px 15px;
+}
+.tab-content{
+	font-size:20px;
+	padding: 10px;
+	border: 1px solid green;
+    -moz-border-radius: 15px 15px 15px 15px;
 }
