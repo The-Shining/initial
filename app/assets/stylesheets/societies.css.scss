@@ -8,46 +8,36 @@
 
 body.societies {
 
-  // Place scoped styles here
+    // Place scoped styles here
 
 }
 
 #feedback{
-        background-image:url('../assets/feedback.jpg');
+    background-image:url('../assets/feedback.jpg');
 }
 
 #info-boxes{
-display:block;
-
-padding:5px;
-
-
-
+    display:block;
+    padding:7px;
 }
 
 #info-boxes h2{
-
     font-family:'Limelight';
     padding-top:10px;
     color:#CE5848;
-
     font-size:30px;
-
+    text-align:center;
     border-bottom:1px dotted;
-
 }
 
 .info-shining-text{
 
-        color:#0C0D0C;
+    color:#0C0D0C;
 
-        font-family:'Lobster';
+    font-family:'Lobster';
 
-        font-size:25px;
-
-        padding-right:70px;
-        padding-top:7px;
-        padding-left:5px;
+    font-size:25px;
+    text-align:center;
 
 }
 
@@ -57,15 +47,15 @@ padding:5px;
 
     width:270px;
 
-    height:350px;
+    height:300px;
 
     padding:5px;
 
     //background-color:#C1CB47;
 
-    -moz-border-radius:20px;
+    -moz-border-radius:80px;
 
-    border-radius:20px;
+    border-radius:80px;
 
 }
 
@@ -113,160 +103,160 @@ padding:5px;
 
 .hello{
 
-  color: red
+    color: red
 
 }
 
 #raption{
 
-color:white;
+    color:white;
 
-font-size:25px;
-font-family:'Permanent Marker';
-padding-bottom:5px;
+    font-size:25px;
+    font-family:'Permanent Marker';
+    padding-bottom:5px;
 
 
 
-text-align:center;
+    text-align:center;
 
 }
 
 .did_you{
 
-width:335px;
+    width:335px;
 
-height:215px;
+    height:215px;
 
 }
 
 .event-wrap{
 
-background-color:#666;
+    background-color:#666;
 
-width:400px;
+    width:400px;
 
 }
 
 #eventinfo{
 
-float:left;
+    float:left;
 
-background-color:#666;
+    background-color:#666;
 
-font-size:25px;
+    font-size:25px;
 
 }
 
 .date{
 
-width: 98px;
+    width: 98px;
 
-height: 98px;
+    height: 98px;
 
-background: transparent url(/assets/bg-date-dark.gif) top left no-repeat;
+    background: transparent url(/assets/bg-date-dark.gif) top left no-repeat;
 
-float: left;
+    float: left;
 
-clear: both;
+    clear: both;
 
-margin: 0;
+    margin: 0;
 
-padding: 0;
+    padding: 0;
 
-color: #4ACFD8;
+    color: #4ACFD8;
 
-text-align: center;
+    text-align: center;
 
-padding-top: 10px;
+    padding-top: 10px;
 
-line-height: 1em;
+    line-height: 1em;
 
 }
 
 #date-number{
 
-color: #333;
+    color: #333;
 
-font-size: 500%;
+    font-size: 500%;
 
-line-height: 1em;
+    line-height: 1em;
 
-display: block;
+    display: block;
 
-margin-top: -8px;
+    margin-top: -8px;
 
 }
 
 #e{
 
-  border: 1px solid #65B23E;
+    border: 1px solid #65B23E;
 
-  box-shadow: 1px 7px 4px 0px green;
+    box-shadow: 1px 7px 4px 0px green;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  width:350px;
+    width:350px;
 
-  height:290px;
+    height:290px;
 
-  background:#65B23E;
+    background:#65B23E;
 
-  //#DE6747
+    //#DE6747
 
 }
 
 #f{
 
-  border: 1px solid #65B23E;
+    border: 1px solid #65B23E;
 
-  padding:0px;
+    padding:0px;
 
-  margin:15px;
+    margin:15px;
 
-  border-radius: 5px;
+    border-radius: 5px;
 
-  background:white;
+    background:white;
 
-  align:center;
+    align:center;
 
-  height:180px;
+    height:180px;
 
-  text-color:white
+    text-color:white
 
 }
 
 body {
 
-	margin: 0;
+    margin: 0;
 
-	padding: 0;
-	background-color:#FFF;
+    padding: 0;
+    background-color:#FFF;
 
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-	font-size: 13px;
+    font-size: 13px;
 
-	color: #3B3B3B;
+    color: #3B3B3B;
 
 }
 
 #head{
-background-color: bisque;
+    background-color: bisque;
 
-border-radius: 20px;
+    border-radius: 20px;
 }
 
 h1, h2, h3 {
 
-	margin: 0;
+    margin: 0;
 
-	padding: 0;
+    padding: 0;
 
-	font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 
-	font-weight: normal;
+    font-weight: normal;
 
-	color: #000000;
+    color: #000000;
 
 }
 
@@ -274,7 +264,7 @@ h1, h2, h3 {
 
 h1 {
 
-	font-size: 2em;
+    font-size: 2em;
 
 }
 
@@ -282,7 +272,7 @@ h1 {
 
 h2 {
 
-	font-size: 2.4em;
+    font-size: 2.4em;
 
 }
 
@@ -290,7 +280,7 @@ h2 {
 
 h3 {
 
-	font-size: 1.6em;
+    font-size: 1.6em;
 
 }
 
@@ -298,9 +288,9 @@ h3 {
 
 p, ul, ol {
 
-	margin-top: 0;
+    margin-top: 0;
 
-	line-height: 180%;
+    line-height: 180%;
 
 }
 
@@ -314,9 +304,9 @@ ul, ol {
 
 a {
 
-	text-decoration: none;
+    text-decoration: none;
 
-	color: #359F00;
+    color: #359F00;
 
 }
 
@@ -330,95 +320,58 @@ a:hover {
 
 #wrapper {
 
-	width: 980px;
+    width: 980px;
 
-	margin: 0 auto;
+    margin: 0 auto;
 
-	padding: 0;
+    padding: 0;
 
 }
 
 
-
-/* Header */
-
-
-
-
-
-
-
 /* Logo */
-
-
-
 #logo {
-
     float:left;
-
-	margin: 10px 10px;
-
-	padding: 5px 40px 0px 0px;
-
-	color: #000000;
-
-	
-
+    display:inline;
+    margin: 10px 10px;
+    padding: 5px 40px 0px 0px;
+    color: #000000;
 }
 
 
 
 #logo h1, #logo p {
-
-	text-align: right;
-
-	font-family: Georgia, "Times New Roman", Times, serif;
-
+    text-align: right;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
-
-
 
 #logo h1 {
-
-	font-size: 65px;
-
+   font-size: 65px;
 }
-
-
 
 #logo span {
-
-	color: #FF3801;
-
+    color: #FF3801;
 }
 
-
-
 #logo p {
-
-	margin: -25px 0px 0px 0px;
-
-	padding: 0px;
-
-	letter-spacing: -1px;
-
-	font-style: italic;
-
-	font-size: 32px;
-
-} 
+    margin: -25px 0px 0px 0px;
+    padding: 0px;
+    letter-spacing: -1px;
+    font-style: italic;
+    font-size: 32px;
+}
 
 
 
 #logo a {
 
-	border: none;
+    border: none;
 
-	background: none;
+    background: none;
 
-	text-decoration: none;
+    text-decoration: none;
 
-	color: #359F00;
+    color: #359F00;
 
 }
 
@@ -430,19 +383,19 @@ a:hover {
 
 #search {
 
-	float: right;
+    float: right;
 
-	width: 280px;
+    width: 280px;
 
-	height: 50px;
+    height: 50px;
 
-	padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 
-	background: #65B23E;
+    background: #65B23E;
 
-	border-bottom: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
 
-	margin-left: 110px;
+    margin-left: 110px;
 
 }
 
@@ -450,11 +403,11 @@ a:hover {
 
 #search form {
 
-	height: 41px;
+    height: 41px;
 
-	margin: 0;
+    margin: 0;
 
-	padding: 10px 0 0 20px;
+    padding: 10px 0 0 20px;
 
 }
 
@@ -462,11 +415,11 @@ a:hover {
 
 #search fieldset {
 
-	margin: 0;
+    margin: 0;
 
-	padding: 0;
+    padding: 0;
 
-	border: none;
+    border: none;
 
 }
 
@@ -474,19 +427,19 @@ a:hover {
 
 #search-text {
 
-	width: 170px;
+    width: 170px;
 
-	padding: 2px 5px 2px 5px;
+    padding: 2px 5px 2px 5px;
 
-	border: none;
+    border: none;
 
-	background: #FFFFFF;
+    background: #FFFFFF;
 
-	text-transform: lowercase;
+    text-transform: lowercase;
 
-	font: normal 11px Arial, Helvetica, sans-serif;
+    font: normal 11px Arial, Helvetica, sans-serif;
 
-	color: #5D781D;
+    color: #5D781D;
 
 }
 
@@ -494,17 +447,17 @@ a:hover {
 
 #search-submit {
 
-	width: 50px;
+    width: 50px;
 
-	height: 22px;
+    height: 22px;
 
-	border: none;
+    border: none;
 
-	background: #FF6F26;
+    background: #FF6F26;
 
-	font-weight: bold;
+    font-weight: bold;
 
-	color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
@@ -516,32 +469,32 @@ a:hover {
 
 #menu {
 
-	width: 980px;
+    width: 980px;
 
-	height: 80px;
+    height: 80px;
 
-	/*margin: 0 auto;*/
+    /*margin: 0 auto;*/
 
-	padding: 5px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
 
-	float: left;
-	
-	margin-bottom: 65px;
+    float: left;
+
+    margin-bottom: 65px;
 }
 
 
 
 #menu ul {
 
-	float: left;
+    float: left;
 
-	margin: 0;
+    margin: 0;
 
-	padding: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 
-	list-style: none;
+    list-style: none;
 
-	line-height: normal;
+    line-height: normal;
 
 }
 
@@ -549,7 +502,7 @@ a:hover {
 
 #menu li {
 
-	float: left;
+    float: left;
 
 }
 
@@ -557,33 +510,33 @@ a:hover {
 
 #menu a {
 
-	display: block;
+    display: block;
 
-	width: 98px;
+    width: 98px;
 
-	height: 37px;
+    height: 37px;
 
-	margin-right: 5px;
+    margin-right: 5px;
 
-	padding: 12px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
 
-	background: url(/assets/img02.jpg) no-repeat left top;
+    background: url(/assets/img02.jpg) no-repeat left top;
 
-	text-decoration: none;
+    text-decoration: none;
 
-	text-align: center;
+    text-align: center;
 
-	text-transform: uppercase;
+    text-transform: uppercase;
 
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-	font-size: 11px;
+    font-size: 11px;
 
-	font-weight: bold;
+    font-weight: bold;
 
-	color: #FFFFFF;
+    color: #FFFFFF;
 
-	border: none;
+    border: none;
 
 }
 
@@ -591,7 +544,7 @@ a:hover {
 
 #menu a:hover, #menu .current_page_item a {
 
-	background: url(/assets/img03.jpg) no-repeat left top;
+    background: url(/assets/img03.jpg) no-repeat left top;
 
 }
 
@@ -609,11 +562,11 @@ a:hover {
 
 #page {
 
-	width: 940px;
+    width: 940px;
 
-	margin: 0 auto;
+    margin: 0 auto;
 
-	padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
 }
 
@@ -621,7 +574,7 @@ a:hover {
 
 #page-bgtop {
 
-	padding: 20px 0px;
+    padding: 20px 0px;
 
 }
 
@@ -639,9 +592,9 @@ a:hover {
 
 #content {
 
-	margin-top: 30px;
+    margin-top: 30px;
 
-	padding: 0px 0px 20px 10px;
+    padding: 0px 0px 20px 10px;
 
 }
 
@@ -649,7 +602,7 @@ a:hover {
 
 .post {
 
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 
 }
 
@@ -669,21 +622,21 @@ a:hover {
 
 .post .title {
 
-	height: 38px;
+    height: 38px;
 
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 
-	padding: 12px 0 10px 60px;
+    padding: 12px 0 10px 60px;
 
-	background: url(/assets/img06.jpg) no-repeat left 5px;
+    background: url(/assets/img06.jpg) no-repeat left 5px;
 
-	letter-spacing: -2px;
+    letter-spacing: -2px;
 
-	text-transform: lowercase;
+    text-transform: lowercase;
 
-	font-size: 46px;
+    font-size: 46px;
 
-	color: #359F00;
+    color: #359F00;
 
 }
 
@@ -691,9 +644,9 @@ a:hover {
 
 .post .title a {
 
-	color: #359F00;
+    color: #359F00;
 
-	border: none;
+    border: none;
 
 }
 
@@ -701,17 +654,17 @@ a:hover {
 
 .post .meta {
 
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 
-	padding: 5px 0px 15px 0px;
+    padding: 5px 0px 15px 0px;
 
-	text-align: left;
+    text-align: left;
 
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-	font-size: 13px;
+    font-size: 13px;
 
-	font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -719,7 +672,7 @@ a:hover {
 
 .post .meta .date {
 
-	float: left;
+    float: left;
 
 }
 
@@ -727,7 +680,7 @@ a:hover {
 
 .post .meta .posted {
 
-	float: right;
+    float: right;
 
 }
 
@@ -741,11 +694,11 @@ a:hover {
 
 .post .entry {
 
-	padding: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 
-	padding-bottom: 20px;
+    padding-bottom: 20px;
 
-	text-align: justify;
+    text-align: justify;
 
 }
 
@@ -753,11 +706,11 @@ a:hover {
 
 .links {
 
-	padding-top: 20px;
+    padding-top: 20px;
 
-	font-size: 12px;
+    font-size: 12px;
 
-	font-weight: bold;
+    font-weight: bold;
 
 }
 
@@ -769,13 +722,13 @@ a:hover {
 
 #sidebar {
 
-	float: left;
+    float: left;
 
-	width: 280px;
+    width: 280px;
 
-	margin: 0px;
+    margin: 0px;
 
-	padding: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 
 }
 
@@ -783,11 +736,11 @@ a:hover {
 
 #sidebar ul {
 
-	margin: 0;
+    margin: 0;
 
-	padding: 0;
+    padding: 0;
 
-	list-style: none;
+    list-style: none;
 
 }
 
@@ -795,9 +748,9 @@ a:hover {
 
 #sidebar li {
 
-	margin: 0;
+    margin: 0;
 
-	padding: 0;
+    padding: 0;
 
 }
 
@@ -805,9 +758,9 @@ a:hover {
 
 #sidebar li ul {
 
-	margin: 0px 0px;
+    margin: 0px 0px;
 
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -815,11 +768,11 @@ a:hover {
 
 #sidebar li li {
 
-	line-height: 35px;
+    line-height: 35px;
 
-	margin: 0px 30px;
+    margin: 0px 30px;
 
-	border-left: none;
+    border-left: none;
 
 }
 
@@ -827,11 +780,11 @@ a:hover {
 
 #sidebar li li a {
 
-	padding-left: 10px;
+    padding-left: 10px;
 
-	background: url(/assets/img03.gif) no-repeat left 5px;
+    background: url(/assets/img03.gif) no-repeat left 5px;
 
-	color: #464646;
+    color: #464646;
 
 }
 
@@ -839,15 +792,15 @@ a:hover {
 
 #sidebar li li span {
 
-	display: block;
+    display: block;
 
-	margin-top: -20px;
+    margin-top: -20px;
 
-	padding: 0;
+    padding: 0;
 
-	font-size: 11px;
+    font-size: 11px;
 
-	font-style: italic;
+    font-style: italic;
 
 }
 
@@ -855,17 +808,17 @@ a:hover {
 
 #sidebar h2 {
 
-	height: 38px;
+    height: 38px;
 
-	padding-left: 30px;
+    padding-left: 30px;
 
-	text-transform: lowercase;
+    text-transform: lowercase;
 
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
-	font-size: 2em;
+    font-size: 2em;
 
-	color: #359F00;
+    color: #359F00;
 
 }
 
@@ -873,11 +826,11 @@ a:hover {
 
 #sidebar p {
 
-	margin: 0 0px;
+    margin: 0 0px;
 
-	padding: 0px 30px 20px 30px;
+    padding: 0px 30px 20px 30px;
 
-	text-align: justify;
+    text-align: justify;
 
 }
 
@@ -885,7 +838,7 @@ a:hover {
 
 #sidebar a {
 
-	border: none;
+    border: none;
 
 }
 
@@ -893,9 +846,9 @@ a:hover {
 
 #sidebar a:hover {
 
-	text-decoration: underline;
+    text-decoration: underline;
 
-	color: #8A8A8A;
+    color: #8A8A8A;
 
 }
 
@@ -913,7 +866,7 @@ a:hover {
 
 #calendar_wrap {
 
-	padding: 20px;
+    padding: 20px;
 
 }
 
@@ -921,7 +874,7 @@ a:hover {
 
 #calendar table {
 
-	width: 100%;
+    width: 100%;
 
 }
 
@@ -929,7 +882,7 @@ a:hover {
 
 #calendar tbody td {
 
-	text-align: center;
+    text-align: center;
 
 }
 
@@ -937,7 +890,7 @@ a:hover {
 
 #calendar #next {
 
-	text-align: right;
+    text-align: right;
 
 }
 
@@ -949,12 +902,12 @@ a:hover {
 
 #footer {
 
-	height: 50px;
+    height: 50px;
     width:500px;
 
     margin-left:390px;
 
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -966,21 +919,21 @@ a:hover {
     border-radius: 330px 230px 0px 0px;
     background-color:peachPuff;
 
-	margin: 0;
+    margin: 0;
 
-	padding-top: 17px;
+    padding-top: 17px;
 
-	line-height: normal;
+    line-height: normal;
 
-	font-size: 45px;
-	font-style:bold;
-	font-family:'Six Caps';
+    font-size: 45px;
+    font-style:bold;
+    font-family:'Six Caps';
 
-	text-transform: uppercase;
+    text-transform: uppercase;
 
-	text-align: center;
+    text-align: center;
 
-	color: #A0A0A0;
+    color: #A0A0A0;
 
 }
 
@@ -988,23 +941,23 @@ a:hover {
 
 #footer a {
 
-	color: #8A8A8A;
+    color: #8A8A8A;
 
 }
 
 #sidebar_top{
 
-	background: url(/assets/img02.jpg) no-repeat left 5px;
+    background: url(/assets/img02.jpg) no-repeat left 5px;
 
-	padding-top:50px;
+    padding-top:50px;
 
-	width: 98px;
+    width: 98px;
 
-	height: 57px;
+    height: 57px;
 
-	display:block;
+    display:block;
 
-	-webkit-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
 
     -moz-transform: rotate(270deg);
 
@@ -1022,19 +975,19 @@ a:hover {
 
 #nav{
 
-float:left;
+    float:left;
 
-padding: 30px 0 10px 10px;
-
-
-
-letter-spacing: 0px;
+    padding: 30px 0 -5px 10px;
 
 
 
-font-size: 16px;
+    letter-spacing: 0px;
 
-color: #359F00;
+
+
+    font-size: 16px;
+
+    color: #359F00;
 
 }
 
@@ -1042,9 +995,9 @@ color: #359F00;
 
 #nav .left{
 
-display:block;
+    display:block;
 
-float:left;
+    float:left;
 
 }
 
@@ -1052,9 +1005,9 @@ float:left;
 
 #nav .right{
 
-display:block;
+    display:block;
 
-float:right;
+    float:right;
 
 }
 
@@ -1066,23 +1019,23 @@ float:right;
 
     font-family:'Cabin Sketch';
 
-	font-size:30px;
+    font-size:30px;
 
-	float:right;
+    float:right;
 
-	border-radius:10px;
+    border-radius:10px;
 
-	-moz-border-radius:10px;
+    -moz-border-radius:10px;
 
-	padding:17px;
+    padding:17px;
 
-	background-color:#F5EA83; 
+    background-color:#F5EA83;
 
 }
 
 #listing a{
 
-	color:#5C627D;
+    color:#5C627D;
 
 }
 
@@ -1096,35 +1049,35 @@ float:right;
 
 .activities-sub-content{
 
-  border: 1px solid #65B23E;
+    border: 1px solid #65B23E;
 
-  border-radius: 8px;
+    border-radius: 8px;
 
-  -moz-border-radius: 15px;
+    -moz-border-radius: 15px;
 
-  width:780px;
+    width:780px;
 
-  height:300px;
+    height:300px;
 
-  padding: 15px;
+    padding: 15px;
 
-  margin: 0px 15px 15px 30px;
+    margin: 0px 15px 15px 30px;
 
 }
 
 .slideshow-images{
 
-  border: 1px solid #000000;
+    border: 1px solid #000000;
 
-  -moz-border-radius: 12px;
+    -moz-border-radius: 12px;
 
-  width:345px;
+    width:345px;
 
-  height:225px;
+    height:225px;
 
-  background:#000000;
+    background:#000000;
 
-  padding: 8px 0px 0px 8px;
+    padding: 8px 0px 0px 8px;
 
 }
 
@@ -1228,13 +1181,13 @@ float:right;
 
     text-align: center;
 
-        -moz-box-shadow: 5px 5px 5px #ccc;
+    -moz-box-shadow: 5px 5px 5px #ccc;
 
     -webkit-box-shadow: 5px 5px 5px #ccc;
 
     box-shadow: 5px 5px 5px #ccc;
 
-    
+
 
 }
 
@@ -1272,7 +1225,7 @@ float:right;
 
     font-size:30px;
 
-letter-spacing:1px;
+    letter-spacing:1px;
 
 }
 
@@ -1302,21 +1255,21 @@ font-family:'Tangerine';
 
 line-height:30px;
 
-  padding-top: 18px;
+padding-top: 18px;
 
-  padding-bottom: 18px;
+padding-bottom: 18px;
 
-  padding-right: 10px;
+padding-right: 10px;
 
-  background-image: url(../assets/openquote4.gif);
+background-image: url(../assets/openquote4.gif);
 
-  background-position: 10px;
+background-position: 10px;
 
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
 
-    height:80px;
+height:80px;
 
-    border-bottom:3px solid white;
+border-bottom:3px solid white;
 
 }
 
@@ -1334,7 +1287,7 @@ line-height:30px;
 
 //css for about page
 #about-boxes{
-	padding:20px;
+    padding:20px;
 }
 #about-boxes h2{
     font-family:'Limelight';
@@ -1343,13 +1296,13 @@ line-height:30px;
     border-bottom:1px dotted;
 }
 #about-boxes h2 a{
-	color:#EEEEEE;
+    color:#EEEEEE;
 }
 .shining-text{
-        color:#000000;
-        font-family:'Cabin Sketch';
-        font-size:20px;
-        padding-right:60px;
+    color:#000000;
+    font-family:'Cabin Sketch';
+    font-size:20px;
+    padding-right:60px;
 }
 .shining{
     margin:10px;
@@ -1373,22 +1326,22 @@ line-height:30px;
     float:left;
 }
 .about-sub{
-	padding: 10px;
+    padding: 10px;
 }
 .tabs{
-	padding: 8px;
+    padding: 8px;
 }
 .tabs a{
-	font-size:16px;
-	border: 1px solid green;
+    font-size:16px;
+    border: 1px solid green;
     -moz-border-radius: 10px 10px 10px 10px;
     padding: 7px 15px 7px 15px;
-	background-color :#65B23E;
-	color: #FFFFFF;
+    background-color :#65B23E;
+    color: #FFFFFF;
 }
 .tab-content{
-	font-size:15px;
-	padding: 10px;
-	border: 1px solid green;
+    font-size:15px;
+    padding: 10px;
+    border: 1px solid green;
     -moz-border-radius: 15px 15px 15px 15px;
 }
