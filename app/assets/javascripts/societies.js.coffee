@@ -31,3 +31,30 @@ $(document).ready ->
     $('.tab-content').children().hide()
     $('.tab-content .'+tab_type).show()
 	
+
+  $('#about-us-home').live "mouseenter", ->
+    $(this).css({backgroundColor:"#C1CB47"})
+    $(this).children().css({color:"white"})       
+  $('#about-us-home').live "mouseleave", ->
+    $(this).css({backgroundColor:"#FFFFFF"})
+    $(this).children().css({color:"black"})       
+
+  $('#events-home').live "mouseenter", ->
+    $(this).css({backgroundColor:"khaki"})
+
+  $('#events-home').live "mouseleave", ->
+    $(this).css({backgroundColor:"#FFFFFF"})
+
+
+  $('#support-home').live "mouseenter", ->
+    $(this).css({backgroundColor:"burlyWood"})
+    $(this).children().css({color:"white"})       
+
+  $('#support-home').live "mouseleave", ->
+    $(this).css({backgroundColor:"#FFFFFF"}) 
+    $(this).children().css({color:"black"})
+
+  $('.footer-links').live "mouseenter", ->
+    $(this).css({color:"black"})
+  $('.footer-links').live "mouseleave", ->
+    $(this).css({color:"#A0A0A0"})

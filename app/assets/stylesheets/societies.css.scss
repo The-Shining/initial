@@ -23,13 +23,12 @@ padding:5px;
 
 
 
-
 }
 
 #info-boxes h2{
 
     font-family:'Limelight';
-
+    padding-top:10px;
     color:#CE5848;
 
     font-size:30px;
@@ -48,6 +47,7 @@ padding:5px;
 
         padding-right:70px;
         padding-top:7px;
+        padding-left:5px;
 
 }
 
@@ -61,11 +61,11 @@ padding:5px;
 
     padding:5px;
 
-    background-color:#C1CB47;
+    //background-color:#C1CB47;
 
-    -moz-border-radius:10px;
+    -moz-border-radius:20px;
 
-    border-radius:10px;
+    border-radius:20px;
 
 }
 
@@ -640,7 +640,7 @@ a:hover {
 
 	margin-top: 30px;
 
-	padding: 0px 0px 0px 10px;
+	padding: 0px 0px 20px 10px;
 
 }
 
