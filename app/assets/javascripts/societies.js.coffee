@@ -5,22 +5,16 @@
 $(document).ready ->
 
   #coffee for about page
-  $('#about-us').mouseenter ->
-    $(this).css('backgroundColor', '#2987D3')
+  $('#about-boxes a').mouseenter ->
+    $(this).parent().parent().css('backgroundColor', '#2987D3')
 
-  $('#about-us').mouseleave ->
-    $(this).css('backgroundColor', '#49A7F3')
-    #$(this).animate({backgroundPosition,'300px -10px'})
-
-  $('#our-goals').mouseenter ->
-    $(this).css('backgroundColor', '#2987D3')
-    #$(this).css('backgroundPosition','153px -10px')
-
-  $('#our-goals').mouseleave ->
-    $(this).css('backgroundColor', '#49A7F3')
+  $('#about-boxes a').mouseleave ->
+    $(this).parent().parent().css('backgroundColor', '#49A7F3')
     #$(this).animate({backgroundPosition,'300px -10px'})
 
   $('#about-boxes a').live 'click', ->
+    $('#about-boxes').children().css('border', '0px')
+    $(this).parent().parent().css('border', '2px solid green')
     id = $(this).closest('div').attr('id')
     $('.about-sub').children().hide()
     $('#'+id+'-sub').show()
@@ -30,7 +24,8 @@ $(document).ready ->
     tab_type = $(this).parent().attr('class')
     $('.tab-content').children().hide()
     $('.tab-content .'+tab_type).show()
-	
+    $('.tabs a').css('font-size', '15px')
+    $(this).css('font-size', '22px')
 
   $('#about-us-home').live "mouseenter", ->
     $(this).css({backgroundColor:"#C1CB47"})

@@ -520,12 +520,13 @@ a:hover {
 
 	height: 80px;
 
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 
 	padding: 5px 0px 10px 0px;
 
 	float: left;
-
+	
+	margin-bottom: 65px;
 }
 
 
@@ -1338,7 +1339,7 @@ line-height:30px;
 #about-boxes h2{
     font-family:'Limelight';
     color:#FFFFFF;
-    font-size:30px;
+    font-size:24px;
     border-bottom:1px dotted;
 }
 #about-boxes h2 a{
@@ -1347,13 +1348,13 @@ line-height:30px;
 .shining-text{
         color:#000000;
         font-family:'Cabin Sketch';
-        font-size:25px;
+        font-size:20px;
         padding-right:60px;
 }
 .shining{
     margin:10px;
-    width:270px;
-    height:150px;
+    width:280px;
+    height:90px;
     padding:5px;
     background-color:#49A7F3;
     -moz-border-radius:30px 10px 30px 10px;
@@ -1378,13 +1379,15 @@ line-height:30px;
 	padding: 8px;
 }
 .tabs a{
-	font-size:18px;
+	font-size:16px;
 	border: 1px solid green;
     -moz-border-radius: 10px 10px 10px 10px;
     padding: 7px 15px 7px 15px;
+	background-color :#65B23E;
+	color: #FFFFFF;
 }
 .tab-content{
-	font-size:20px;
+	font-size:15px;
 	padding: 10px;
 	border: 1px solid green;
     -moz-border-radius: 15px 15px 15px 15px;
