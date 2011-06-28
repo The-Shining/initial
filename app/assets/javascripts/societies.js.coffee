@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
-
+   
   #coffee for about page
   $('#about-boxes a').mouseenter ->
     $(this).parent().parent().css('backgroundColor', '#2987D3')
@@ -64,4 +64,15 @@ $(document).ready ->
   $('.footer-links').live "mouseleave", ->
     $(this).css({color:"#A0A0A0"})
 
-  $('#supporter').rotate(-12)
+
+  setInterval(
+    ->
+      console.log("loop")
+      a = $('#holder').children()
+      b = $('#holder .slides[style*="display: none"]').first()
+      caption = b.attr('caption_text')
+      link = b.attr('link')
+      a.hide()
+      b.fadeIn("slow")
+      $('#raption').html('<a href='+link+'>'+caption+'</a>')
+  ,2000)  

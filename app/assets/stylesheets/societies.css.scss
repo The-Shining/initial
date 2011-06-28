@@ -11,7 +11,23 @@ body.societies {
     // Place scoped styles here
 
 }
-
+#holder .slides{
+display:none;
+width:325px;
+padding:4px;
+height:196px;
+}
+#holder #first{
+display:show;
+}
+#nhs-logo{
+    background-image:url('../assets/logo-nhs.jpg');
+        background-repeat:repeat;
+    height:130px;
+    width:160px;
+    margin-bottom: -76px;
+margin-left: 191px;
+}
 #feedback{
     background-image:url('../assets/feedback.jpg');
 }
@@ -49,7 +65,8 @@ body.societies {
 
     height:300px;
 
-    padding:5px;
+    padding:5px 5px 5px 5px;
+    margin-top:30px;
 
     //background-color:#C1CB47;
 
@@ -107,14 +124,14 @@ body.societies {
 
 }
 
-#raption{
+#raption a{
 
     color:white;
 
     font-size:25px;
     font-family:'Permanent Marker';
     padding-bottom:5px;
-
+    link-style:none;
 
 
     text-align:center;
@@ -224,6 +241,8 @@ body.societies {
     text-color:white
 
 }
+
+
 
 body {
 
@@ -592,7 +611,7 @@ a:hover {
 
 #content {
 
-    margin-top: 30px;
+    margin-top: 0px;
 
     padding: 0px 0px 20px 10px;
 
@@ -978,7 +997,7 @@ a:hover {
     float:left;
 
     padding: 30px 0 -5px 10px;
-
+    margin-top:-40px;
 
 
     letter-spacing: 0px;
