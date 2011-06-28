@@ -1,6 +1,6 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/mistyRose
 
 $(document).ready ->
    
@@ -28,7 +28,7 @@ $(document).ready ->
     $(this).css('font-size', '22px')
 
   $('#about-us-home').live "mouseenter", ->
-    $(this).css({backgroundColor:"#C1CB47"})
+    $(this).css({backgroundColor:"slateGray"})
     $(this).children().css({color:"white"})
 
 
@@ -39,7 +39,7 @@ $(document).ready ->
     $(this).children().css({color:"black"})
 
   $('#events-home').live "mouseenter", ->
-    $(this).css({backgroundColor:"mistyRose"})
+    $(this).css({backgroundColor:"tan"})
     $(this).children().last().css({color:"sienna"})
     $(this).children().first().css({color:"crimson"})
 
