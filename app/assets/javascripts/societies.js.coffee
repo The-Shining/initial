@@ -1,6 +1,6 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/mistyRose
+# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
    
@@ -39,7 +39,7 @@ $(document).ready ->
     $(this).children().css({color:"black"})
 
   $('#events-home').live "mouseenter", ->
-    $(this).css({backgroundColor:"tan"})
+    $(this).css({backgroundColor:"mistyRose"})
     $(this).children().last().css({color:"sienna"})
     $(this).children().first().css({color:"crimson"})
 
@@ -75,4 +75,25 @@ $(document).ready ->
       a.hide()
       b.fadeIn("slow")
       $('#raption').html('<a href='+link+'>'+caption+'</a>')
-  ,2000)  
+  ,2000)
+  
+  $('.thumb').live "mouseenter", ->
+    $(this).parent().css('z-index','100px')
+    $(this).parent().css('box-shadow','5px 5px 5px black')
+    $(this).css('opacity','0.8')
+
+  $('.thumb').live "mouseleave", ->
+    $(this).parent().css('z-index','0px')
+    $(this).parent().css('box-shadow','0px')
+    $(this).css('opacity','1')
+
+  $('.thumb').live "click", ->
+    $(this).css('opacity','1')
+    $('#gallery .large').removeClass('large').addClass('thumb')
+    $('.thumb').rotate(0)
+    $(this).toggleClass('thumb large')
+    $(this).rotate(-10)
+
+  $('.large').live "click", ->
+    $(this).toggleClass('large thumb')
+    $(this).rotate(0)
