@@ -73,7 +73,6 @@ $(document).ready ->
   setInterval(
     ->
       current = $('#holder [style*="display: inline"]')
-      console.log(current)
       current.hide()
       if(current.next().length < 1)
         $('#holder').children().first().fadeIn("slow")
@@ -119,4 +118,10 @@ $(document).ready ->
 
   $('#about-hemo').live "click", ->
     $('#content').show("fold",1000)
-
+	
+  #coffee for feedback, fancybox
+  $('#fancybox_link').fancybox({    
+    'autoDimensions' : true,
+    'transitionIn' : 'none',
+    'transitionOut' : 'none'
+  })

@@ -1,7 +1,7 @@
 Initial::Application.routes.draw do
 
   resources :societies
-
+  resources :comments, :only => [:create]
   get "about" => 'societies#about'
   get "support" => 'societies#support'
   get "activities" => 'societies#activities'
