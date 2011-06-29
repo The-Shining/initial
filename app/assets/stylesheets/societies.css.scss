@@ -75,6 +75,43 @@ display:show;
     margin-bottom: -76px;
 margin-left: 191px;
 }
+
+.submenu{
+    width:200px;
+    height:80px;
+    display:inline;
+    float:left;
+    margin-right:20px;
+    padding:10px;
+}
+#submenu-boxes{
+    height:200px;
+    width:900px;
+}
+#content-box{
+    width:900px;
+    height:700px;
+    border: 2px solid;
+    margin-top:40px;
+    border-radius:10px;
+}
+#submenu-boxes h2{
+font-family: "Lobster";
+font-size:40px;
+}
+
+#submenu-boxes .info-shining-text{
+
+    color:#0C0D0C;
+    opacity:0.8;
+    font-family:'Lobster';
+
+    font-size:15px;
+    text-align:left;
+
+}
+
+
 #feedback{
     background-image:url('../assets/feedback.jpg');
 }

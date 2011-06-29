@@ -3,7 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
-   
+
   #coffee for about page
   $('#about-boxes a').mouseenter ->
     $(this).parent().parent().css('backgroundColor', '#2987D3')
@@ -86,7 +86,7 @@ $(document).ready ->
         current.next().fadeIn("slow")
         $('#raption').html('<a href='+link+'>'+caption+'</a>')
   ,3000)
-  
+
   $('.thumb').live "mouseenter", ->
     $(this).parent().css('z-index','100px')
     $(this).parent().css('box-shadow','5px 5px 5px black')
@@ -107,3 +107,9 @@ $(document).ready ->
   $('.large').live "click", ->
     $(this).toggleClass('large thumb')
     $(this).rotate(0)
+  $('.submenu').live "mouseenter", ->
+    $(this).css({'border-bottom':'4px solid'})
+    $(this).children().css({'opacity':'1.0'})
+  $('.submenu').live "mouseleave", ->
+    $(this).css({'border-bottom':'0px'})
+    $(this).children().css({'opacity':'0.7'})
