@@ -1,9 +1,13 @@
 Initial::Application.routes.draw do
 
   resources :societies
-  
+
   get "about" => 'societies#about'
   get "support" => 'societies#support'
+  get "activities" => 'societies#activities'
+  get "contact" => 'societies#contact'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

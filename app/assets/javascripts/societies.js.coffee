@@ -105,8 +105,9 @@ $(document).ready ->
     $(this).rotate(-10)
 
   $('.large').live "click", ->
-    $(this).toggleClass('large thumb')
     $(this).rotate(0)
+    $(this).toggleClass('large thumb')
+
   $('.submenu').live "mouseenter", ->
     $(this).css({'border-bottom':'4px solid'})
     $(this).children().css({'opacity':'1.0'})

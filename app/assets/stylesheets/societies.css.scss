@@ -60,9 +60,9 @@ body.societies {
 
 #holder .slides{
 display:none;
-width:325px;
-padding:4px;
-height:196px;
+width:335px;
+padding:8px;
+height:210px;
 }
 #holder #first{
 display:show;
@@ -83,6 +83,8 @@ margin-left: 191px;
     float:left;
     margin-right:20px;
     padding:10px;
+    margin-top:-30px;
+
 }
 #submenu-boxes{
     height:200px;
@@ -92,7 +94,7 @@ margin-left: 191px;
     width:900px;
     height:700px;
     border: 2px solid;
-    margin-top:40px;
+    margin-top:70px;
     border-radius:10px;
 }
 #submenu-boxes h2{
@@ -133,9 +135,7 @@ font-size:40px;
 .info-shining-text{
 
     color:#0C0D0C;
-
     font-family:'Lobster';
-
     font-size:25px;
     text-align:center;
 
@@ -206,6 +206,9 @@ font-size:40px;
 
     color: red
 
+}
+#raption{
+    text-align:center;
 }
 
 #raption a{
