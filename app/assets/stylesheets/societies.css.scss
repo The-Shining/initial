@@ -257,18 +257,20 @@ margin-left: 191px;
 
     box-shadow: 1px 7px 4px 0px green;
 
-    border-radius: 8px;
+    -moz-border-radius: 15px;
 
     width:350px;
 
-    height:290px;
-
+    height:250px;
+    padding: 10px 0 0 15px;
     background:#65B23E;
 
     //#DE6747
 
 }
-
+#raption{
+	text-align: center;
+}
 #f{
 
     border: 1px solid #65B23E;
@@ -412,7 +414,7 @@ a:hover {
 }
 
 #logo h1 {
-   font-size: 65px;
+   font-size: 52px;
 }
 
 #logo span {
@@ -1411,3 +1413,19 @@ border-bottom:3px solid white;
     border: 1px solid green;
     -moz-border-radius: 15px 15px 15px 15px;
 }
+
+//css for feedback,fancybox
+#fancybox_link{
+	float:right;
+}
+#fancybox_div{
+	background: #E0E5F5;
+	border: 1px solid #E0E5F5;
+	-moz-border-radius: 5px 18px 18px 5px;
+	padding:5px;
+}
+#fancybox_div .field{
+  padding: 5px;
+}
+
+

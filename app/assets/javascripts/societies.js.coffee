@@ -73,7 +73,6 @@ $(document).ready ->
   setInterval(
     ->
       current = $('#holder [style*="display: inline"]')
-      console.log(current)
       current.hide()
       if(current.next().length < 1)
         $('#holder').children().first().fadeIn("slow")
@@ -107,3 +106,10 @@ $(document).ready ->
   $('.large').live "click", ->
     $(this).toggleClass('large thumb')
     $(this).rotate(0)
+	
+  #coffee for feedback, fancybox
+  $('#fancybox_link').fancybox({    
+    'autoDimensions' : true,
+    'transitionIn' : 'none',
+    'transitionOut' : 'none'
+  })

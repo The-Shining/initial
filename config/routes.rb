@@ -1,7 +1,7 @@
 Initial::Application.routes.draw do
 
   resources :societies
-  
+  resources :comments, :only => [:create]
   get "about" => 'societies#about'
   get "support" => 'societies#support'
   # The priority is based upon order of creation:
