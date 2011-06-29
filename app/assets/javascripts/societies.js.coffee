@@ -64,18 +64,28 @@ $(document).ready ->
   $('.footer-links').live "mouseleave", ->
     $(this).css({color:"#A0A0A0"})
 
-
+  # coffee for slides
+  $('.slides').hide()
+  $('#holder').children().first().fadeIn("slow")
+  caption = $('#holder').children().first().attr('caption_text')
+  link = $('#holder').children().first().attr('link')
+  $('#raption').html('<a href='+link+'>'+caption+'</a>')
   setInterval(
     ->
-      console.log("loop")
-      a = $('#holder').children()
-      b = $('#holder .slides[style*="display: none"]').first()
-      caption = b.attr('caption_text')
-      link = b.attr('link')
-      a.hide()
-      b.fadeIn("slow")
-      $('#raption').html('<a href='+link+'>'+caption+'</a>')
-  ,2000)
+      current = $('#holder [style*="display: inline"]')
+      console.log(current)
+      current.hide()
+      if(current.next().length < 1)
+        $('#holder').children().first().fadeIn("slow")
+        caption = $('#holder').children().first().attr('caption_text')
+        link = $('#holder').children().first().attr('link')
+        $('#raption').html('<a href='+link+'>'+caption+'</a>')
+      else
+        caption = current.next().attr('caption_text')
+        link = current.next().attr('link')
+        current.next().fadeIn("slow")
+        $('#raption').html('<a href='+link+'>'+caption+'</a>')
+  ,3000)
   
   $('.thumb').live "mouseenter", ->
     $(this).parent().css('z-index','100px')
