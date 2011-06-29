@@ -114,3 +114,9 @@ $(document).ready ->
   $('.submenu').live "mouseleave", ->
     $(this).css({'border-bottom':'0px'})
     $(this).children().css({'opacity':'0.7'})
+
+  $('#content').hide()
+
+  $('#about-hemo').live "click", ->
+    $('#content').show("fold",1000)
+
