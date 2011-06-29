@@ -70,22 +70,7 @@ $(document).ready ->
   caption = $('#holder').children().first().attr('caption_text')
   link = $('#holder').children().first().attr('link')
   $('#raption').html('<a href='+link+'>'+caption+'</a>')
-  setInterval(
-    ->
-      current = $('#holder [style*="display: inline"]')
-      console.log(current)
-      current.hide()
-      if(current.next().length < 1)
-        $('#holder').children().first().fadeIn("slow")
-        caption = $('#holder').children().first().attr('caption_text')
-        link = $('#holder').children().first().attr('link')
-        $('#raption').html('<a href='+link+'>'+caption+'</a>')
-      else
-        caption = current.next().attr('caption_text')
-        link = current.next().attr('link')
-        current.next().fadeIn("slow")
-        $('#raption').html('<a href='+link+'>'+caption+'</a>')
-  ,3000)
+
 
   $('.thumb').live "mouseenter", ->
     $(this).parent().css('z-index','100px')
@@ -115,8 +100,16 @@ $(document).ready ->
     $(this).css({'border-bottom':'0px'})
     $(this).children().css({'opacity':'0.7'})
 
-  $('#content').hide()
-
+  $('#content-box').children().hide()
+  $('#content-box').children().first().show()
   $('#about-hemo').live "click", ->
-    $('#content').show("fold",1000)
+    $('#content-box').children().hide()
+    $('#about-hemo-content').show()
+    $('#content-box').show("fold",1000)
+  $('#about-us-about').live "click", ->
+    $('#content-box').children().hide()
+    $('#about-us-content').show()
+    $('#content-box').show("fold",1000)
 
+  $('#about-us-about').live "click", ->
+    $('#content-box').show("fold",1000)
