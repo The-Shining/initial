@@ -92,7 +92,7 @@ height : 75px;
 	background:url(../assets/logo-nhs.png) no-repeat top left;
 }
 #logo h1 a {
-color :#EEE;
+color :#EDEDED;
 margin : -10px 0 0 0px;
 text-decoration : underline;
 text-align : center;
@@ -103,7 +103,7 @@ font-size : 30px;
 font-weight:bold;
 }
 #logo h1 a:hover {
-color:#444444;
+color:#A9ADBA;
 text-decoration : none;
 }
 
