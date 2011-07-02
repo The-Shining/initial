@@ -2,12 +2,15 @@ Initial::Application.routes.draw do
 
   resources :societies
   resources :comments, :only => [:create]
+  
+  get "home" => 'societies#index'
   get "about" => 'societies#about'
-  get "support" => 'societies#support'
   get "activities" => 'societies#activities'
+  get "support" => 'societies#support'
   get "contact" => 'societies#contact'
 
-
+  root :to => 'societies#index'
+   
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,154 +1,108 @@
 <div id="wrapper">
 
-  <div id="menu">
-
-    <ul>
-
-      <li class="current_page_item"><a href="home">Home</a></li>
-
-      <li class="menu_item"><a href="about">About</a></li>
-
-      <li class="menu_item"><a href="activities">Activities</a></li>
-
-      <li class="menu_item"><a href="support">Support</a></li>
-
-      <li class="menu_item"><a href="contact">Contact</a></li>
-
-      <div id="search" >
-
-      <form method="get" action="#">
-
-        <div>
-
-          <input type="text" name="s" id="search-text" value="" placeholder="jpt" />
-
-          <input type="submit" id="search-submit" value="GO" />
-
-        </div>
-
-      </form>
-
-      </div>
-
-    </ul>
-
-    <div id = "listing">
-        <%= link_to 'Support Us', "#" %>
-	</div>
-
-  </div>
-
-  <!-- end #menu -->
-
-
-  <div id="head">
-<!--  <div id="sidebar_top">
-      <a href="#">asda</a>
-
-  </div>-->
-
-     <div id="nav">
-
-      <div id= "e">
-
-        <div id= "holder">
-            <%= image_tag("building.jpg",:class => "slides", :caption_text => "A shot of the our building", :link => "person_link") %>
-            <%= image_tag("donation.jpg",:class => "slides", :caption_text => "April 11, Blood Donation", :link => "person_link") %>
-            <%= image_tag("conference.jpg",:class => "slides", :caption_text => "Hemophilia Conference", :link => "person_link") %>
-        </div>
-
-        <div id = "caption"></div>
-
-
-        <div id = "raption">A shot</div>
-
-      </div>
-
-    </div>
-
-	<div id="logo">
-		<div id="nhs-logo"></div>
-			<!--<div id = "supporter">
-				<div id = "can-you">You can</div>
-				<div id = "help">HELP</div>
-				<div id = "feedback"></div>
-			</div>-->
-
-			<h1>
-				<a href="#" class="nepal">Nepal<br />
-				<span>Hemophilia Society</span></a>
-			</h1>
-			<p>&nbsp;</p>
+	<div id="header">
+		<div id="top-header">
+			<div id="navbar">
+				<ul>
+					<li><a href="home">Home</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="activities">Activities</a></li>
+					<li><a href="support">Support</a></li>
+					<li><a href="contact">Contact</a></li>
+				</ul>
+			</div>
+			<div id="logo">
+				<h1><a href='#' title="Nepal Haemophilia Society">Nepal Haemophilia Society</a></h1>
+			</div>
 		</div>
-		<a href="#fancybox_div" id="fancybox_link">
-			<img src="../assets/feedback_img.jpg" height="100" width="100"></img>
-		</a>
+		<div id="splash">
+			<div id = "caption"></div>
+			<div id= "holder">
+				<%= image_tag("building.jpg",:class => "slides", :caption_text => "A shot of the our building", :link => "person_link") %>
+				<%= image_tag("donation.jpg",:class => "slides", :caption_text => "April 11, Blood Donation", :link => "person_link") %>
+				<%= image_tag("conference.jpg",:class => "slides", :caption_text => "Haemophilia Conference", :link => "person_link") %>
+			</div>
+		
+			<blockquote>
+			  <p>
+				Here is Another web templates for Child Charity or websites, flexible template easy to customize.
+			  </p>
+			</blockquote>
+			<p>You <strong>CAN</strong> use this design for both personal or commercial purposes free of charge. You <strong>CAN</strong> copy, publish, distribute, convert and transmit this template. You <strong>CAN</strong> modify this template as you want but keep the footer design by link same.</p> 
+		</div>
 	</div>
 
-  <!-- end #header -->
+	<div class="container">
+		<div id="service-bar">
+			<div class="services">
+				<img src="../assets/join.png" alt="img" />
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci.Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci.
+					Tellus et pretium orci dui lorem ...<span class="readmore"><a href="#">Read more</a></span>
+				</p>
+			</div>
+			<div class="services">
+				<img src="../assets/program.png" alt="img" width="123" height="123" />
+				<h2>Events</h2>
+				<p>Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci. Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci.
+				Tellus et pretium orci dui lorem ...<span class="readmore"><a href="#">Read more</a></span>
+				</p>
+			</div>
+			<div class="services">
+				<img src="../assets/donate.png" alt="img" />
+				<h2>Support Us</h2>
+				<p>Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci. Lorem ipsum dolor sit amet consectetuer pretium ligula enim Donec orci.
+				Tellus et pretium orci dui lorem ...<span class="readmore"><a href="#">Read more</a></span>
+			   </p>
+			</div>
+		</div>
 
-  <div id="page">
+		<div id="right-box">
+			<h2>NHS News</h2>
+			 <p><strong><a href="#">29 June 2011</a></strong>:Fermentum non id et non semper Proin id interdum nibh ligula. Id platea
+						dapibus pede leo nunc ..</p>
+			<p><strong><a href="#">27 June 2011</a></strong>: Fermentum non id et non semper Proin id interdum nibh ligula. Id platea
+			dapibus pede leo nunc ..</p>
+			<h2>Find us on</h2>    
+			<div id="icons"> 
+				<a href="#"> <img src="../assets/twitter.png" alt="" />  </a>
+				<a href="#"> <img src="../assets/facebook.png" alt="" />   </a>
+				<a href="#"> <img src="../assets/rss.png" alt="" /></a>
+				<a href="#"> <img src="../assets/technorati.png" alt="" /></a>
+			</div>    
+		</div>
 
-  <div id="page-bgtop">
+		<div id="left-box">
+			<h2>Latest Feedbacks</h2>
+			<ul>
+				<li><a href="#">Nec metus sed donec</a></li>
+				<li><a href="#">Magna lacus bibendum mauris</a></li>
+				<li><a href="#">Velit semper nisi molestie</a></li>
+				<li><a href="#">Eget tempor eget nonummy</a></li>
+			</ul>
+		</div>
 
-  <div id="page-bgbtm">
-
-    <div id="content">
-
-<div id = "info-boxes">
-
-  <div id = "about-us-home" class = "info-shining">
-
-    <h2>About Us</h2>
-
-    <div class = "info-shining-text" id = "event">Lorem Insum Gypsum Nepal.</div></div>
-
-  <div id = "events-home" class = "info-shining">
-
-    <h2>Our Work</h2>
-
-    <div class = "info-shining-text" id = "activity">Lorem Insum Gypsum Nepal.</div></div>
-
-  <div id = "support-home" class = "info-shining">
-
-    <h2>Support Us</h2>
-
-    <div class = "info-shining-text" id = "event">Lorem Insum Gypsum Nepal</div></div>
-
+		<div id="box1">
+			<h2>Gallery Items</h2>
+			<div id="gallery"> 
+				<img src="../assets/blood.jpg" alt="" /> 
+				<img src="../assets/donation.jpg" alt="" /> 
+				<img src="../assets/hemophilia2.jpg" alt="" /> 
+				<img src="../assets/hemophilia3.gif" alt="" />  
+				<img src="../assets/hemophilia4.jpg" alt="" /> 
+				<img src="../assets/inheritance.gif" alt="" /> 
+			</div>
+		</div>
+		
+		<div id="footer">
+			&copy; <%= link_to 'Nepal Haemophilia Society', root_path %> 2011 |
+			<a href="http://www.templatesperfect.com"> <img src="../assets/templatesperfect.png" alt="" />  </a>
+		</div>
+		
+	</div>
+	<div style="display:none">
+		<div id="fancybox_div">
+			<%= render 'comment_form' %>
+		</div>
+	</div>
 </div>
-
-    </div>
-
-    <!-- end #content -->
-
-
-
-    </div>
-
-    <!-- end #sidebar -->
-
-    <div style="clear: both;">&nbsp;</div>
-
-
-  </div>
-
-  </div>
-
-  </div>
-
-  <!-- end #page -->
-
-</div>
-  <div id="footer">
-
-    <p>
-<a class= "footer-links">HOME</a> | <a class= "footer-links">About</a> | <a class= "footer-links">Activities</a> | <a class= "footer-links">Support</a> | <a class= "footer-links">Contact</a>
-    </p>
-
-  </div>
-
- <div style="display:none">
-	<div id="fancybox_div">
-		<%= render 'comment_form' %>
-	<div>
- </div>

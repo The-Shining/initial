@@ -1,0 +1,297 @@
+/* Free css docuement by Templatesperfect.com
+Template: Child Charity
+ Author Paarth */
+
+
+*{	margin:0;
+	padding:0;
+		font-weight:normal;
+	
+}
+body {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background:#eee;
+	margin-bottom:20px;
+	font-size:13px;
+	color:#44432f;
+
+}
+h2 {text-transform:uppercase;}
+a {
+	color:#063;
+	text-decoration:none;
+}
+a:hover {
+	color:#444444;
+	text-decoration:underline;
+}
+#wrapper {
+
+	background:#eee;
+}
+
+#header {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	background:#069;
+		border-bottom:1px solid #ccc;
+}
+#top-header{ 
+height:100px;
+width:1000px;
+	margin:0 auto;
+	border-bottom:3px solid #fff;
+
+}
+
+#splash {
+width:998px;
+height:250px;
+margin:0 auto;
+	border-left:1px solid #777;
+	border-right:1px solid #777;
+	background:#693;
+	padding-bottom:15px;
+}
+
+#splash img {
+	float:right;
+	height:210px;
+	width:400px;
+	border:5px solid #FFF;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin:10px 30px;
+}
+#splash blockquote p
+{
+	color : #fff;
+padding : 20px 50px;
+line-height:28px;
+font-size:16px;
+}
+
+#splash p
+{
+	color:#FFF;
+padding : 10px 560px 10px 50px;
+line-height:18px;
+font-size:12px;
+}
+
+img {
+border : none;
+float : left;
+}
+#logo {
+margin : 40px 0 0 0px;
+width : 450px;
+float : left;
+height : 75px;
+	background:url(../assets/logo-nhs.png) no-repeat top left;
+}
+#logo h1 a {
+color :#EEE;
+margin : -10px 0 0 0px;
+text-decoration : underline;
+text-align : center;
+display : block;
+padding-left : 150px;
+text-decoration : none;
+font-size : 30px;
+font-weight:bold;
+}
+#logo h1 a:hover {
+color:#444444;
+text-decoration : none;
+}
+
+#navbar {
+width:530px;
+height : 30px;
+float: right; 
+margin-top:65px;
+
+}
+#navbar ul { list-style : none; }
+#navbar li 
+{ 
+ float: left; 
+ width:90px;
+ font-size:14px;
+ text-align:center;
+ margin:3px 0 0 3px;
+  }
+#navbar li a
+{  
+color:#fff;
+ padding-bottom: 4px;
+ text-decoration:none;
+  }
+#navbar li a:hover{
+	color:#444444; 
+	text-decoration:underline;
+}
+  
+div.container {
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+	background:#fff;
+}
+
+ p {
+color : #555;
+padding : 10px;
+line-height:20px;
+}
+
+#service-bar {
+clear : both;
+float : left;
+}
+
+.services {
+width : 290px;
+height:270px;
+float : left;
+padding : 10px;
+margin : 10px 10px 20px 10px;
+	background:url(../assets/shadows.png) no-repeat bottom center;
+}
+.services img {
+	width : 60px;
+	height:60px;
+border : none;
+float : left;
+margin:10px 20px;
+border: none;
+}
+.services h2{
+	font-size:26px;
+	margin:10px
+		
+}
+.services p{
+	font-size:13px;
+		line-height:25px;
+			margin-top:20px;
+}
+#left-box {
+	clear:left ;
+	float:left;
+width : 330px;
+padding:10px;
+margin-left : 10px;
+margin-top : 10px;
+
+}
+#left-box ul {
+margin-left : 30px;
+padding : 10px;
+list-style : url(../assets/post.png);
+}
+#left-box ul li {
+padding : 2px 0;
+font-size : 14px;
+color : #063;
+}
+#left-box ul li a {
+text-decoration : none;
+border : none;
+color:#069;
+}
+#left-box ul li a:hover {
+text-decoration : underline;
+border : none;
+color : #063;
+}
+
+#box1 {
+	float: left;
+	width: 290px;
+	padding:10px;
+margin-left : 10px;
+margin-top : 10px;
+}
+#gallery img{
+width:80px;
+height:60px;
+  	float: left;
+	margin:5px;
+	border:2px solid #ddd;
+	background:#eee;
+	}
+	
+	#gallery img:hover{
+	border:2px solid #333;
+	}
+.readmore {
+background:#963;
+border:1px solid:#09C;
+display:inline;
+font-weight:bold;
+font-size : 16px;
+color : #fff;
+padding : 5px 15px;
+font-weight : bold;
+float:right;
+}
+.readmore a {
+color : #fff;
+text-decoration : none;
+}
+.readmore a:hover {
+color : #34331F;
+text-decoration : none;
+}
+#right-box {
+width : 300px;
+float : right;
+
+padding:5px;
+}
+#icons img{
+width:50px;
+height:50px;
+  	float: left;
+	margin:5px;
+	border:none;
+	}
+/*- Footer -*/
+
+#footer {
+	clear:both;
+	margin:0 auto;
+	padding:10px 10px 15px 10px;
+	border-top:1px solid #dddddd;
+	text-align:right;
+	background:#693;
+	color:#FFF;
+}
+#footer img { float:right; margin-left: 10px;}
+
+/* css/changes made by self */
+
+#caption {
+	padding: 3px 140px 0px 0px;
+    text-align: right;
+}  
+#caption  a{
+	color:#FFF ;
+} 
+#caption  a:hover{
+	color:#444444 ;
+} 
+#holder{
+	margin-top: -5px;
+}
+#navbar ul li{
+	border: 1px solid silver;
+	padding:5px;
+}
+#navbar ul li:hover{
+	background:#669933;
+}

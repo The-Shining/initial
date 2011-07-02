@@ -69,21 +69,21 @@ $(document).ready ->
   $('#holder').children().first().fadeIn("slow")
   caption = $('#holder').children().first().attr('caption_text')
   link = $('#holder').children().first().attr('link')
-  $('#raption').html('<a href='+link+'>'+caption+'</a>')
+  $('#caption').html('<a href='+link+'>'+caption+'</a>')
   setInterval(
     ->
-      current = $('#holder [style*="display: inline"]')
+      current = $('#holder [style*="display: block"]')
       current.hide()
       if(current.next().length < 1)
         $('#holder').children().first().fadeIn("slow")
         caption = $('#holder').children().first().attr('caption_text')
         link = $('#holder').children().first().attr('link')
-        $('#raption').html('<a href='+link+'>'+caption+'</a>')
+        $('#caption').html('<a href='+link+'>'+caption+'</a>')
       else
         caption = current.next().attr('caption_text')
         link = current.next().attr('link')
         current.next().fadeIn("slow")
-        $('#raption').html('<a href='+link+'>'+caption+'</a>')
+        $('#caption').html('<a href='+link+'>'+caption+'</a>')
   ,3000)
 
   $('.thumb').live "mouseenter", ->
